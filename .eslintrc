@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "extends": "eslint-config-egg",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "semi": [
+      2,
+      "never"
+    ],
+    "strict": "off",
+    "array-bracket-spacing": "off",
+    "indent": [
+      2,
+      2
+    ],
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "array-bracket-newline": "off",
+    "array-element-newline": "off",
+    "space-before-function-paren": "off"
+  }
+}
